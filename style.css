@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+.text {
+    font-size: 18px;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -44,4 +48,29 @@ body {
 .hero-image {
     max-width: 500px;
     height: auto;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.items .image {
+    height: 100px;
+    width: 100px;
+    border: 5px solid blue;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
