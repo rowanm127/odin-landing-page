@@ -7,6 +7,12 @@ body {
     padding: 0;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
 .text {
     font-size: 18px;
 }
@@ -14,9 +20,14 @@ body {
 .hero {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #1F2937;
-    color: white;
-    padding: 20px 100px;
+    color: #F9FAF8;
+    padding: 20px 50px;
+}
+
+.hero .container {
+    max-width: 70%;
 }
 
 .header {
@@ -34,7 +45,7 @@ body {
     gap: 20px;
 }
 
-.header .links, .header p {
+.alt-text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -48,6 +59,15 @@ body {
 .hero-image {
     max-width: 500px;
     height: auto;
+    flex: 2;
+}
+
+.button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 0;
+    padding: 8px 30px;
+    border-radius: 10px;
 }
 
 .random {
