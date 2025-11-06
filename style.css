@@ -75,7 +75,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 80px 23%;
 }
 
 .info {
@@ -90,11 +90,15 @@ h1 {
 }
 
 .items .image {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 5px solid blue;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.items .text {
+    text-align: center;
 }
 
 .quote {
