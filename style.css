@@ -15,6 +15,7 @@ h1 {
 
 .text {
     font-size: 18px;
+    font-weight: 500;
 }
 
 .hero {
@@ -74,6 +75,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .info {
@@ -93,4 +95,18 @@ h1 {
     border: 5px solid blue;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    padding: 100px 23%;
+}
+
+.quote .text {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
 }
