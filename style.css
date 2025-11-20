@@ -10,16 +10,32 @@ body {
 h1 {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
+}
 
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 0;
 }
 
 h3 {
     font-size: 24px;
 }
 
+p {
+    margin: 0 0 10px;
+}
+
 .text {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.alt-text {
+    color: #E5E7EB;
 }
 
 .hero {
@@ -50,15 +66,11 @@ h3 {
     gap: 20px;
 }
 
-.alt-text {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
 .hero .content {
     margin: 50px 0;
     display: flex;
     align-items: center;
+    gap: 50px;
 }
 
 .hero-image {
@@ -72,31 +84,33 @@ h3 {
     background-color: #3882F6;
     border: 0;
     padding: 8px 30px;
-    border-radius: 10px;
-}
-
-.random {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 80px 23%;
+    border-radius: 5px;
 }
 
 .info {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 23% 100px;
+    gap: 50px;
+}
+
+.info .content {
+    display: flex;
+    gap: 50px;
 }
 
 .items {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px;
+    width: 170px;
 }
 
 .items .image {
-    height: 150px;
-    width: 150px;
-    border: 5px solid blue;
+    height: 160px;
+    width: 160px;
+    border: 5px solid #3882F6;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -119,27 +133,23 @@ h3 {
     font-weight: 700;
 }
 
-.sign-up .box {
+.sign-up .action-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 20%;
-    padding: 20px 70px;
+    margin: 80px 15%;
+    padding: 40px 90px;
     background-color: #3882F6;
     border-radius: 10px;
     color: #F9FAF8;
 }
 
-.box div p, .box div h3 {
+.action-box div p, .action-box div h3 {
     margin: 5px 0;
 }
 
-.box button {
-    padding: 5px 20px;
-    background-color: #3882F6;
+.action-box .button {
     border: 2px solid #F9FAF8;
-    border-radius: 10px;
-    color: #F9FAF8;
 }
 
 .footer {
