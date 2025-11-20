@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -28,6 +28,12 @@ p {
     margin: 0 0 10px;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .text {
     font-size: 18px;
     font-weight: 300;
@@ -42,7 +48,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #113a4c;
     color: #F9FAF8;
     padding: 20px 50px;
 }
@@ -66,22 +72,22 @@ p {
     gap: 20px;
 }
 
-.hero .content {
+.container .content {
     margin: 50px 0;
     display: flex;
     align-items: center;
     gap: 50px;
+    padding: 60px 0;
 }
 
 .hero-image {
-    max-width: 500px;
-    height: auto;
-    flex: 2;
+    flex: 2 0 500px;
+    height: 250px;
 }
 
 .button {
     color: #F9FAF8;
-    background-color: #3882F6;
+    background-color: #3b7d9e;
     border: 0;
     padding: 8px 30px;
     border-radius: 5px;
@@ -110,9 +116,13 @@ p {
 .items .image {
     height: 160px;
     width: 160px;
-    border: 5px solid #3882F6;
+    border: 5px solid #3b7d9e;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.image img {
+    border-radius: 5px;
 }
 
 .items .text {
@@ -139,7 +149,7 @@ p {
     justify-content: space-between;
     margin: 80px 15%;
     padding: 40px 90px;
-    background-color: #3882F6;
+    background-color: #3b7d9e;
     border-radius: 10px;
     color: #F9FAF8;
 }
@@ -155,7 +165,7 @@ p {
 .footer {
     display: flex;
     justify-content: center;
-    background-color: #1F2937;
+    background-color: #113a4c;
     color: #F9FAF8;
-    padding: 20px 40px;
+    padding: 30px;
 }
